@@ -2,21 +2,22 @@
 
 
 class Room(object):
+    def __init__(self, name, exits, capacity, occupants=[]):
+        self.name = name
+        self.exits = exits
+        self.occupants = occupants
+        self.capacity = capacity
     def overful(self):
         return len(self.occupants) > self.capacity
     def full(self):
         return len(self.occupants) == self.capacity
 
 
-myroom = Room()
-myroom.name = "Kitchen"
-myroom.capacity = 1
-myroom.occupants = ["Bob"]
+Kitchen = Room("Kitchen", {'Garden': 'North'}, 3, ['Bob'])
 
 
 
-print(myroom.overful())
-print(myroom.full())
+print(Kitchen.occupants)
 
 
 
