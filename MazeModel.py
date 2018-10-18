@@ -51,4 +51,11 @@ myHouse = {
     }
 }
 
-print(myHouse)
+
+capacity = 0
+occupancy = 0
+for name, room in myHouse.items():
+    capacity +=room['capacity']
+    occupancy += len(room['occupants'])
+
+print('The house has a capacity of', capacity,'people. It currently has', occupancy, 'people in it.')
