@@ -50,3 +50,5 @@ myHouse = {
                   }
     }
 }
+
+print(myHouse)
