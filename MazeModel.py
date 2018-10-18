@@ -17,12 +17,17 @@ Make sure that your model:
 Allows empty rooms
 Allows you to jump out of the upstairs window, but not to fly back up.
 Allows rooms which people can't fit in.
+
+------------------------------------------------------------------------------------------------------------------------
+
+Added a count of total occupancy and capacity of myHouse
+
 """
 
 myHouse = {
     'frontRoom': {
         'capacity': 2,
-        'occupants': ['James'],
+        'occupants': ['James', 'Jim'],
         'exits': {
             'upstairs': 'bedroom',
             'outside': 'garden',
@@ -51,11 +56,19 @@ myHouse = {
     }
 }
 
-
+# find the total capacity and occupancy of myHouse
 capacity = 0
 occupancy = 0
-for name, room in myHouse.items():
-    capacity +=room['capacity']
+for i, room in myHouse.items():
+    print('Room: {}'.format(i))
+    print('Room capacity: {}'.format(room['capacity']))
+
+    if len(room['occupants']) == 0:
+        print('Room Occupants: No-one is here.')
+    elif len(room['occupants']) > 0:
+        print('Room Occupants: {}'.format(room['occupants']))
+    print(' ')
+    capacity += room['capacity']
     occupancy += len(room['occupants'])
 
-print('The house has a capacity of', capacity,'people. It currently has', occupancy, 'people in it.')
+print('The house has a capacity of {} people. It currently has {} people in it.'.format(capacity, occupancy))
