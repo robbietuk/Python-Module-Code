@@ -56,19 +56,26 @@ myHouse = {
     }
 }
 
-# find the total capacity and occupancy of myHouse
-capacity = 0
-occupancy = 0
-for i, room in myHouse.items():
-    print('Room: {}'.format(i))
-    print('Room capacity: {}'.format(room['capacity']))
 
-    if len(room['occupants']) == 0:
-        print('Room Occupants: No-one is here.')
-    elif len(room['occupants']) > 0:
-        print('Room Occupants: {}'.format(room['occupants']))
-    print(' ')
-    capacity += room['capacity']
-    occupancy += len(room['occupants'])
+def my_occ_and_capacity():
+    # find the total capacity and occupancy of myHouse
+    capacity = 0
+    occupancy = 0
 
-print('The house has a capacity of {} people. It currently has {} people in it.'.format(capacity, occupancy))
+    for i, room in myHouse.items():
+        print('Room: {}'.format(i))
+        print('Room capacity: {}'.format(room['capacity']))
+
+        if len(room['occupants']) == 0:
+            print('Room Occupants: No-one is here.')
+        elif len(room['occupants']) > 0:
+            print('Room Occupants: {}'.format(room['occupants']))
+
+        print(' ')
+        capacity += room['capacity']
+        occupancy += len(room['occupants'])
+
+    print('The house has a capacity of {} people. It currently has {} people in it.'.format(capacity, occupancy))
+
+
+my_occ_and_capacity()
