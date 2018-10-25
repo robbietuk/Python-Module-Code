@@ -44,8 +44,8 @@ for quake in quakes:
         largest_quake = quake
 
 largest_mag = largest_quake['properties']['mag']
-lat = largest_quake['geometry']['coordinates'][0]
-long = largest_quake['geometry']['coordinates'][1]
+long = largest_quake['geometry']['coordinates'][0]
+lat = largest_quake['geometry']['coordinates'][1]
 
 print(' ')
 print('The largest quake had a magnitude of {}'.format(largest_mag))
