@@ -1,64 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="495c5cd5-abd4-4443-8e6c-78f6da85866f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BirdsFlocking.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Matplotlib.py" beforeDir="false" afterPath="$PROJECT_DIR$/Matplotlib.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000002.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000003.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000004.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000005.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000006.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000007.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000008.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000009.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000010.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000011.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000012.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000013.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000014.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000015.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000016.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000017.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000018.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000019.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000020.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000021.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000022.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000023.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000024.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000025.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000026.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000027.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000028.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000029.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000030.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000031.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000032.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000033.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000034.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000035.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000036.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000037.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000038.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000039.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000040.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000041.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000042.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000043.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000044.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000045.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000046.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000047.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000048.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000049.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boids_1_frames/frame0000050.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Animation_example.py" afterDir="false" />
-    </list>
+    <list default="true" id="495c5cd5-abd4-4443-8e6c-78f6da85866f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,13 +36,13 @@
     <session id="-1164222204">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="3" />
-          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -145,7 +88,7 @@
     <favorites_list name="Python Module Code" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -178,11 +121,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1448" />
-    <option name="y" value="-118" />
-    <option name="width" value="1652" />
-    <option name="height" value="1010" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1564" />
+    <option name="y" value="-38" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -209,7 +152,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -221,6 +163,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -249,6 +192,9 @@
       <module name="Python Module Code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -561,9 +507,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="-127" width="1680" height="1027" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49814814" visible="true" weight="0.12881564" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49814814" visible="true" weight="0.15236051" />
       <window_info id="Structure" order="1" sideWeight="0.50185186" side_tool="true" weight="0.24964234" />
       <window_info id="Favorites" order="2" sideWeight="0.50185186" side_tool="true" weight="0.24964234" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -584,7 +530,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" x="885" y="139" width="461" height="419" id="SciView" order="4" visible="true" weight="0.23992674" />
+      <window_info active="true" anchor="right" x="885" y="139" width="461" height="419" id="SciView" order="4" visible="true" weight="0.2811159" />
       <window_info anchor="right" id="Database" order="5" weight="0.3297568" />
       <window_info anchor="right" id="Coverage" order="6" side_tool="true" />
     </layout>
@@ -628,10 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <marker date="1539858460042" expanded="true" signature="80:206" ph="..." />
-            <marker date="1539858460042" expanded="true" signature="225:282" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -646,18 +588,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="48" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="e#232#243#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boids_1_frames/frame0000000.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boids_1.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/boids_1_frames/frame0000000.png" />
+    <entry file="file://$PROJECT_DIR$/boids_1.html" />
     <entry file="uml://Python/#/Users/RobertTwyman/OneDrive/Documents/UCL/Modules/MPHY0021 - Python/Code/Python Module Code/Ball1.py">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -669,33 +604,16 @@
           <settings layout="Hierarchic Group" zoom="1.0" x="302.0" y="367.0" />
           <SelectedNodes />
           <Categories />
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ball1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BirdsFlocking.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="643">
-          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Ball1.py" />
+    <entry file="file://$PROJECT_DIR$/BirdsFlocking.py" />
     <entry file="file://$PROJECT_DIR$/Matplotlib.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
