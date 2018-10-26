@@ -1,5 +1,7 @@
 """
 A simple example of an animated plot
+Sourced from:
+https://stackoverflow.com/questions/50928743/matplotlib-animation-not-displaying-in-pycharm?noredirect=1&lq=1
 """
 
 
