@@ -5,40 +5,68 @@ This will update both the velocity and position
 """
 
 import numpy as np
-
+import matplotlib.pyplot as plt
 
 # Global parameters
-gravity = np.array([0, -0.1])
-t_end = 20
-ball_bounce_constant = 1
+gravity = np.array([[0.0],
+                    [-0.1]])
+t_end = 20  # how many iterations in for loop
+
+ball_bounce_coefficient = 1
+
+path = np.zeros((2, t_end))
 
 # Box limits
 # [x_lower, x_upper], [y_lower, y_upper]
-box_limits = np.array([[0, 10], [0, 10]])
+box_limits = np.array([[0, 10],
+                       [0, 10]])
+
 
 # Initial parameters
 # in x, y
 
 class ball:
-    def __init__(self, position, velocity, bounce_coefficient):
-        self.position = position
-        self.velocity = velocity
+    def __init__(self, name, box_limits, bounce_coefficient):
+        self.name = name
+
+        # Set position as a random point within the box limits
+        self.position = np.transpose((box_limits[:, 1] - box_limits[:, 0]) * np.random.rand(1, 2) + box_limits[:, 0])
+        self.velocity = np.random.rand(2, 1)
         self.bounce_coefficient = bounce_coefficient
-        self.velocity_update = velocity + gravity
 
-my_ball = ball(np.array([5, 5]), np.array([0,1]), 1.0)
+        # self.ball_path = np.zeros((2, t_end))
+
+    def say_hi(self):
+        print("Hi, my name is ", self.name)
+
+    def update_velocity(self):
+        self.velocity = self.velocity + gravity
+
+    def update_position(self):
+        self.position = self.position + self.velocity
+
+    def ball_update(self):
+        self.update_position()
+        self.update_velocity()
+
+
+# create my ball
+my_ball = ball("my_ball",
+               box_limits,
+               ball_bounce_coefficient)
 
 
 
 
-def update_ball(x, y):
-    return x + y
+for t in range(t_end):
+    my_ball.ball_update()
+    path[:, t:t+1] = my_ball.position
+    print("Pos. = ", my_ball.position)
 
 
-
-
-
-
+plt.plot(path[0, :], path[1, :], 'ro')
+plt.axes([0, 10, 0 , 10])
+plt.show()
 
 """
 
@@ -79,7 +107,3 @@ for _ in range(t_end):
 
 
 """
-
-
-
-
