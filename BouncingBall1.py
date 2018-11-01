@@ -22,88 +22,66 @@ box_limits = np.array([[0, 10],
                        [0, 10]])
 
 
-# Initial parameters
-# in x, y
-
 class ball:
-    def __init__(self, name, box_limits, bounce_coefficient):
-        self.name = name
-
-        # Set position as a random point within the box limits
+    def __init__(self, box_limits, bounce_coefficient):
+        # Choose a random starting position within the box limits
         self.position = np.transpose((box_limits[:, 1] - box_limits[:, 0]) * np.random.rand(1, 2) + box_limits[:, 0])
+
         self.velocity = np.random.rand(2, 1)
+
         self.bounce_coefficient = bounce_coefficient
 
-        # self.ball_path = np.zeros((2, t_end))
 
-    def say_hi(self):
-        print("Hi, my name is ", self.name)
-
+    # Methods
     def update_velocity(self):
         self.velocity = self.velocity + gravity
 
     def update_position(self):
         self.position = self.position + self.velocity
 
-    def ball_update(self):
-        self.update_position()
+    def bounce(self):
+        #x check
+        if self.position.item(0) < box_limits.item((0, 0)):
+            self.position[0] = 2*box_limits.item((0, 0)) - self.position[0]
+            self.velocity[0] = - self.velocity[0]
+        elif self.position.item(0) > box_limits.item((0, 1)):
+            self.position[0] = 2*box_limits.item((0, 1)) - self.position[0]
+            self.velocity[0] = - self.velocity[0]
+
+        #y check
+        if self.position.item(1) < box_limits.item((1, 0)):
+            self.position[1] = 2*box_limits.item((1, 0)) - self.position[1]
+            self.velocity[1] = - self.velocity[1]
+        elif self.position.item(1) > box_limits.item((1, 1)):
+            self.position[1] = 2*box_limits.item((1, 1)) - self.position[1]
+            self.velocity[1] = - self.velocity[1]
+
+
+
+    def ball_step_update(self):
         self.update_velocity()
+        self.update_position()
+        self.bounce()
+
 
 
 # create my ball
-my_ball = ball("my_ball",
-               box_limits,
+my_ball = ball(box_limits,
                ball_bounce_coefficient)
 
-
-
-
+# Looping over iterations of ball updates
 for t in range(t_end):
-    my_ball.ball_update()
-    path[:, t:t+1] = my_ball.position
-    print("Pos. = ", my_ball.position)
+    my_ball.ball_step_update()
+    path[:, t:t+1] = my_ball.position  # log ball position at each iteration
 
 
-plt.plot(path[0, :], path[1, :], 'ro')
-plt.axes([0, 10, 0 , 10])
+# Plotting the path of the ball
+plt.plot(path[0, :], path[1, :])
+#plt.axes(np.ndarray.flatten(box_limits).tolist())
 plt.show()
 
-"""
-
-
-
-
-print(ball_velocity)
-print(update_ball(ball_velocity, gravity))
-
-
-def ball_in_box_limits(ball_position, ball_velocity, box_limits):
-
-    #x axis position check
-    if update_ball(ball_position, ball_velocity)[0] < box_limits[0, 0] or update_ball(ball_position, ball_velocity)[0] > box_limits[0, 1]:
-
-
-
-    if update_ball(ball_position, ball_velocity) < box_limits[1, :] \
-            or update_ball(ball_position, ball_velocity) > box_limits[1, 1]:
-        return False
-    else:
-        return True
 
 
 
 
 
-for _ in range(t_end):
-    if not ball_in_box_limits(ball_position, ball_velocity, box_limits):
-        ball_velocity = -ball_bounce_constant * ball_velocity  # the ball bounces if would be out of range
-    ball_position = update_ball(ball_position, ball_velocity)
-
-    print(ball_position)
-
-    # Gravity influence
-    ball_velocity = update_ball(ball_velocity, gravity)
-
-
-
-"""
