@@ -9,11 +9,12 @@ import matplotlib.pyplot as plt
 import random
 
 # Global parameters
-time_scale = 0.01
-t_end = int(10.0 / time_scale)  # how many iterations in for loop
+no_balls = 10
+timescale = 0.01
+t_end = int(10.0 / timescale)  # how many iterations in for loop
 
-gravity = np.array([[0.0 * time_scale],
-                    [-0.1 * time_scale]])
+gravity = np.array([[0.0 * timescale],
+                    [-0.1 * timescale]])
 
 my_ball_bounce_coefficient = 0.75
 
@@ -30,7 +31,9 @@ class ball:
                                      + np.reshape(box_limits[:, 0], [2, 1])\
                                      + 0.5 * (np.reshape(np.array([0, box_limits[1, 1] - box_limits[1, 0]]), [2, 1]))
 
-        self.velocity = time_scale * (random.choice((-1, 1)) * (2 * np.random.rand(2, 1)))
+        self.path = np.zeros((2, t_end))
+
+        self.velocity = timescale * (random.choice((-1, 1)) * (5 * np.random.rand(2, 1)))
 
         self.bounce_coefficient = my_ball_bounce_coefficient
 
@@ -41,8 +44,9 @@ class ball:
     def update_velocity(self):
         self.velocity = self.velocity + gravity
 
-    def update_position(self):
+    def update_position(self, t):
         self.position = self.position + self.velocity
+        self.path[:, t:t+1] = self.position
 
     def bounce(self):
         # x check
@@ -61,23 +65,27 @@ class ball:
             self.position[1] = 2 * box_limits.item((1, 1)) - self.position[1]
             self.velocity[1] = - self.bounce_coefficient * self.velocity[1]
 
-    def ball_step_update(self):
+    def ball_step_update(self, t):
         self.update_velocity()
-        self.update_position()
+        self.update_position(t)
         self.bounce()
 
 
-# create my ball
-my_ball = ball(box_limits, my_ball_bounce_coefficient)
+# create ball_list
 
-path = np.zeros((2, t_end))
+ball_list = np.empty(no_balls).tolist()
+for i in range(no_balls):
+    ball_list[i] = ball(box_limits, my_ball_bounce_coefficient)
+
 # Looping over iterations of ball updates
-for t in range(t_end):
-    my_ball.ball_step_update()
-    path[:, t:t + 1] = my_ball.position  # log ball position at each iteration
+for ball in ball_list:
+    for t in range(t_end):
+        ball.ball_step_update(t)
+
+    plt.plot(ball.path[0, :], ball.path[1, :])
 
 # Plotting the path of the ball
-plt.plot(path[0, :], path[1, :])
+
 plt.xlim(box_limits[0, :])
 plt.ylim(box_limits[1, :])
 plt.show()
