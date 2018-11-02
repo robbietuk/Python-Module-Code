@@ -17,9 +17,12 @@
     <SUITE FILE_PATH="coverage/Python_Module_Code$LectureDataInfo.coverage" NAME="LectureDataInfo Coverage Results" MODIFIED="1539863058162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Module_Code$BirdsFlocking.coverage" NAME="BirdsFlocking Coverage Results" MODIFIED="1540547212813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Module_Code$test.coverage" NAME="test Coverage Results" MODIFIED="1540568277384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_Module_Code$BouncingBall1.coverage" NAME="BouncingBall1 Coverage Results" MODIFIED="1541091197841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_Module_Code$BouncingBall1.coverage" NAME="BouncingBall1 Coverage Results" MODIFIED="1541156612607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Module_Code$MazeModel.coverage" NAME="MazeModel Coverage Results" MODIFIED="1540461524458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Module_Code$Ball1.coverage" NAME="Ball1 Coverage Results" MODIFIED="1540547370005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="307" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -54,7 +57,7 @@
           <entry key="html" value="1" />
           <entry key="png" value="1" />
           <entry key="pstat" value="3" />
-          <entry key="py" value="21" />
+          <entry key="py" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -62,24 +65,24 @@
           <entry key="HTML" value="1" />
           <entry key="Image" value="1" />
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="20" />
+          <entry key="Python" value="26" />
           <entry key="UML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="BouncingBall1" value="97" />
+          <entry key="BouncingBall1" value="207" />
           <entry key="Python Console" value="24" />
           <entry key="QuakesExercise" value="15" />
           <entry key="dummy" value="21" />
-          <entry key="py" value="11482" />
+          <entry key="py" value="12103" />
           <entry key="txt" value="865" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="886" />
-          <entry key="Python" value="11618" />
+          <entry key="Python" value="12349" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -97,14 +100,33 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BouncingBall1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="130">
+              <caret line="29" column="72" selection-start-line="29" selection-start-column="72" selection-end-line="29" selection-end-column="72" />
               <folding>
                 <element signature="e#145#163#0" expanded="true" />
-                <marker date="1541091400331" expanded="true" signature="1032:1037" ph="..." />
-                <marker date="1541091400331" expanded="true" signature="1054:1063" ph="..." />
-                <marker date="1541091400331" expanded="true" signature="1054:1845" ph="..." />
+                <marker date="1541156623895" expanded="true" signature="1167:1176" ph="..." />
+                <marker date="1541156623895" expanded="true" signature="1385:1390" ph="..." />
+                <marker date="1541156623895" expanded="true" signature="1407:1416" ph="..." />
+                <marker date="1541156623895" expanded="true" signature="1407:2310" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="1067" selection-start-line="1067" selection-end-line="1067" />
             </state>
           </provider>
         </entry>
@@ -143,11 +165,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1451" />
-    <option name="y" value="-120" />
-    <option name="width" value="1659" />
-    <option name="height" value="1015" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -571,8 +592,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="-127" width="1680" height="1027" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49525616" weight="0.27038628" />
       <window_info id="Run" order="1" sideWeight="0.5047438" side_tool="true" weight="0.21916972" />
@@ -588,16 +608,16 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32941177" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.31082803" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49928468" visible="true" weight="0.27593583" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49928468" visible="true" weight="0.32866243" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="12" weight="0.0" />
       <window_info anchor="right" x="0" y="0" width="310" height="677" id="Documentation" order="0" side_tool="true" weight="0.3297568" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info active="true" anchor="right" x="885" y="139" width="461" height="419" id="SciView" order="4" visible="true" weight="0.31746033" />
+      <window_info active="true" anchor="right" x="885" y="139" width="461" height="419" id="SciView" order="4" sideWeight="0.49910873" visible="true" weight="0.38412017" />
       <window_info anchor="right" id="Database" order="5" weight="0.3297568" />
-      <window_info anchor="right" id="Coverage" order="6" side_tool="true" />
+      <window_info anchor="right" id="Coverage" order="6" sideWeight="0.50089127" side_tool="true" weight="0.31746033" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -622,6 +642,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BouncingBall1.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -641,13 +668,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LectureDataInfo.py" />
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/-1199943127/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="1166" column="8" selection-start-line="1166" selection-start-column="8" selection-end-line="1166" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/QuakesExercise.py" />
     <entry file="file://$PROJECT_DIR$/Classes.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -703,13 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/matplotlib/figure.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
@@ -717,15 +730,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/-1199943127/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="767" column="8" selection-start-line="767" selection-start-column="8" selection-end-line="767" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="1067" selection-start-line="1067" selection-end-line="1067" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BouncingBall1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="130">
+          <caret line="29" column="72" selection-start-line="29" selection-start-column="72" selection-end-line="29" selection-end-column="72" />
           <folding>
             <element signature="e#145#163#0" expanded="true" />
-            <marker date="1541091400331" expanded="true" signature="1032:1037" ph="..." />
-            <marker date="1541091400331" expanded="true" signature="1054:1063" ph="..." />
-            <marker date="1541091400331" expanded="true" signature="1054:1845" ph="..." />
+            <marker date="1541156623895" expanded="true" signature="1167:1176" ph="..." />
+            <marker date="1541156623895" expanded="true" signature="1385:1390" ph="..." />
+            <marker date="1541156623895" expanded="true" signature="1407:1416" ph="..." />
+            <marker date="1541156623895" expanded="true" signature="1407:2310" ph="..." />
           </folding>
         </state>
       </provider>
